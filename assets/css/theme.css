@@ -9761,6 +9761,11 @@ video {
   font-weight: bold;
 }
 
+
+.news-banner{
+  border-radius: 25px;
+}
+
 @media (max-width: 1366px) {
   .business-list .box-container .items {
     flex-basis: 22.7%;
