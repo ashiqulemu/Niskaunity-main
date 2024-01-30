@@ -9761,9 +9761,14 @@ video {
   font-weight: bold;
 }
 
+.border-solid-4{
+  border: 4px solid black;
+}
+
 
 .news-banner{
   border-radius: 25px;
+  
 }
 
 @media (max-width: 1366px) {
