@@ -5,15 +5,15 @@
 	position: relative;
 }
 #msform fieldset {
-	background: white;
+	background: #e8000b;
     border: 0 none;
     border-radius: 3px;
     box-shadow: 0 0 20px 0px rgb(0 0 0 / 8%);
-    padding: 20px 30px;
+    padding:29px;
     box-sizing: border-box;
     width: 100%;
     position: relative;
-    border: 1px solid #efefef;
+    border: 5px solid #000000;
 	
 	/*stacking fieldsets above each other*/
 	position: relative;
@@ -29,10 +29,11 @@
 	border-radius: 3px;
 	margin-bottom: 10px;
 	width: 100%;
-	box-sizing: border-box;
-	font-family: montserrat;
+	box-sizing: border-box; 
 	color: #2C3E50;
 	font-size: 13px;
+	accent-color: black;
+	border: 2px solid black;
 }
 input:focus, textarea:focus{
     outline : 2px solid  #e8000b!important;
@@ -40,20 +41,33 @@ input:focus, textarea:focus{
 }
 /*buttons*/
 #msform .action-button {
-	width: 100px;
-	background: #e8000b;
-	font-weight: bold;
-	color: white;
-	border: 0 none;
-	border-radius: 1px;
-	cursor: pointer;
-	padding: 10px;
-	margin: 10px 5px;
-  text-decoration: none;
-  font-size: 14px;
+	width: 210px;
+    background: #ffffff;
+    font-weight: bold;
+    color: black;
+    border: 0 none;
+    border-radius: 1px;
+    cursor: pointer;
+    padding: 32px 25px;
+    margin: 10px 5px;
+    text-decoration: none;
+    font-size: 33px;
+	box-shadow: black 0px 0px 0px 2px;
+	 
 }
+
+@media (max-width:768px) {
+	#msform .action-button { 
+		padding: 18px; 
+		 
+	}
+}
+
+
 #msform .action-button:hover, #msform .action-button:focus {
 	box-shadow: 0 0 0 2px white, 0 0 0 3px #ae2727;
+	background: #000;
+	color: #fff;
 }
 /*headings*/
 .fs-title {
@@ -79,23 +93,54 @@ input:focus, textarea:focus{
 	list-style-type: none;
     color: #e8000b;
     text-transform: uppercase;
-    font-size: 17px;
+    font-size: 24px;
     width: 33.33%;
     float: left;
     position: relative;
 }
 #progressbar li:before {
 	content: counter(step);
-	counter-increment: step;
-	width: 20px;
-	line-height: 20px;
-	display: block;
-	font-size: 14px;
-	color: #333;
-	background: white;
-	border-radius: 3px;
-	margin: 0 auto 5px auto;
+    counter-increment: step;
+    width: 37px;
+    line-height: 35px;
+    display: block;
+    font-size: 26px;
+    color: #333;
+    background: white;
+    border-radius: 3px;
+    margin: 0 auto 5px auto;
 }
+
+#progressbar li:nth-child(2):before {
+	content: 'Billing';
+    counter-increment: step;
+	width: 105px;
+    line-height: 35px;
+    display: block;
+    font-size: 26px;
+    color: #333;
+    background: white;
+    border-radius: 3px;
+    margin: 0 auto 5px auto;
+}
+
+#progressbar li:nth-child(3):before {
+	content: 'CONFIRM';
+    counter-increment: step;
+	width: 105px;
+    line-height: 35px;
+    display: block;
+    font-size: 26px;
+    color: #333;
+    background: white;
+    border-radius: 3px;
+    margin: 0 auto 5px auto;
+}
+
+
+
+
+
 /*progressbar connectors*/
 #progressbar li:after {
 	content: '';
@@ -104,7 +149,7 @@ input:focus, textarea:focus{
 	background: white;
 	position: absolute;
 	left: -50%;
-	top: 9px;
+	top: 17px;
 	z-index: -1; /*put it behind the numbers*/
 }
 #progressbar li:first-child:after {

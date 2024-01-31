@@ -6959,7 +6959,12 @@ input.cart-plus-minus-box:focus {
 
 /* pop-up image title */
 .mfp-title {
-  font-size: 14px;
+  font-size: 15px;
+  font-family: sans-serif;
+}
+
+.mfp-counter{
+  display: none;
 }
 
 /* ------------------------------------------------------------- *
@@ -9657,17 +9662,18 @@ video {
   color: #d51212;
   background: #d3d3d38a;
   display: block;
-  padding: 5px 15px;
+  padding: 18px;
   border-radius: 6px;
   font-size: 2.7rem;
   cursor: pointer;
   letter-spacing: 2px;
+  box-shadow: 0px 0px 0px 2px black;
 }
 .selectAmount input:checked + label {
-  color: #fff;
-  background: red;
+  color: rgb(24 26 26);
+  background: white;
   display: block;
-  padding: 5px 15px;
+  padding:18px;
   border-radius: 6px;
   font-size: 2.7rem;
 }
