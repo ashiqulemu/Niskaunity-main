@@ -26,6 +26,17 @@
 .justify-content-center {
   justify-content: center;
 }
+.flex-wrap{
+  flex-wrap: wrap;
+}
+
+.monthly-contribution{
+  /* d-flex flex-wrap margin-top-25 margin-bottom-25 justify-content-center align-items-center */
+  display: flex; 
+  margin: 25px 0;
+  justify-content: center;
+  align-items: center;
+}
 
 .border-5 {
   border: 5px solid #e8000b;
@@ -9859,6 +9870,15 @@ video {
 }
 
 @media (max-width: 768px) {
+
+
+  .monthly-contribution{
+    flex-wrap: wrap;
+  }
+
+  .custom-checkbox{
+    width: 90px!important;
+  }
 	
   .volunteer-list .box-container .items {
     flex-basis: 100%;
@@ -9985,4 +10005,8 @@ video {
   font-size: 5rem;
   left: 25px;
   font-weight: bold; 
+}
+
+.text-decoration-underline{
+  text-decoration: underline;
 }

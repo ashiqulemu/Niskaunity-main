@@ -26,11 +26,12 @@ $(".next").click(function(){
 			opacity = 1 - now;
 			current_fs.css({
         'transform': 'scale('+scale+')',
-        'position': 'absolute'
+        'position': 'relative'
       });
 			next_fs.css({'left': left, 'opacity': opacity});
 		}, 
-		duration: 800, 
+		duration: 0, 
+		// duration: 800, 
 		complete: function(){
 			current_fs.hide();
 			animating = false;
@@ -65,7 +66,8 @@ $(".next").click(function(){
 			current_fs.css({'left': left});
 			previous_fs.css({'transform': 'scale('+scale+')', 'opacity': opacity});
 		}, 
-		duration: 800, 
+		// duration: 800, 
+		duration: 0, 
 		complete: function(){
 			current_fs.hide();
 			animating = false;
