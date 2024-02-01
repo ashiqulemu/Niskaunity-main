@@ -322,10 +322,9 @@
 											<input type="radio" name="amount" id="one">
 											<label for="one"><span style="font-family: system-ui">$</span>100 </label>
 										</div>
-										<div class="items">
-											<input type="number"
-												style=" height: 94%; box-shadow: 0px 0px 0px 2px black;"
-												placeholder="other">
+										<div class="items position-relative">
+											<span class="currency">$</span>
+											<input type="number" name="amount" class="otherInput pl-4" oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);" maxlength="7"   placeholder="$OTHER">
 										</div>
 									</div>
 
@@ -333,12 +332,12 @@
 										style="column-gap: 25px;">
 										<div class="d-flex text-white align-items-center"
 											style="column-gap: 15px; font-size: 33px;text-align: left;">
-											<input type="checkbox" name="" id="" class="custom-checkbox"> One time
+											<input type="radio" name="contribution" value="one time " id="" class="custom-checkbox"> One time
 											contribution
 										</div>
 										<div class="d-flex text-white align-items-center"
 											style="column-gap: 15px; font-size: 33px;text-align: left;">
-											<input type="checkbox" name="" id="" class="custom-checkbox"> Monthly
+											<input type="radio" name="contribution" value="monthly" id="" class="custom-checkbox"> Monthly
 											contribution
 										</div>
 									</div> 
