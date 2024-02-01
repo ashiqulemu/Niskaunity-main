@@ -9967,3 +9967,22 @@ video {
     padding-top: 73px;
   }
 }
+
+
+
+.custom-checkbox{
+  appearance: none;
+  height: 80px;
+  width:120px;
+  border: 2px solid black;
+  background-color: #fff; 
+  position: relative; 
+}
+.custom-checkbox:checked::after{
+  content: '\2713';
+  position: absolute;
+  top: 0;
+  font-size: 5rem;
+  left: 25px;
+  font-weight: bold; 
+}

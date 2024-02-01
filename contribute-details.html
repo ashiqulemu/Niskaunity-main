@@ -289,9 +289,12 @@
 							<form id="msform">
 								<!-- progressbar -->
 								<ul id="progressbar">
-									<li class="active">Gift Amount</li>
+									<li class="active"> </li>
+									<li> </li>
+									<li> </li>
+									<!-- <li class="active">Gift Amount</li>
 									<li>CONTACT</li>
-									<li>Payment</li>
+									<li>Payment</li> -->
 								</ul>
 								<!-- fieldsets -->
 								<fieldset style="position: relative;">
@@ -318,17 +321,28 @@
 										<div class="items">
 											<input type="radio" name="amount" id="one">
 											<label for="one"><span style="font-family: system-ui">$</span>100 </label>
-										</div> 
+										</div>
 										<div class="items">
-											<input type="number" style=" height: 94%; box-shadow: 0px 0px 0px 2px black;" placeholder="other">
+											<input type="number"
+												style=" height: 94%; box-shadow: 0px 0px 0px 2px black;"
+												placeholder="other">
 										</div>
 									</div>
 
-									<div class="d-flex   margin-top-25 margin-bottom-25 justify-content-center align-items-center">
-										<span class="d-flex text-white"><input type="checkbox" name="" id=""> One time contribution</span>
-										<span class="d-flex text-white"><input type="checkbox" name="" id=""> Monthly contribution</span>
+									<div class="d-flex margin-top-25 margin-bottom-25 justify-content-center align-items-center"
+										style="column-gap: 25px;">
+										<div class="d-flex text-white align-items-center"
+											style="column-gap: 15px; font-size: 33px;text-align: left;">
+											<input type="checkbox" name="" id="" class="custom-checkbox"> One time
+											contribution
+										</div>
+										<div class="d-flex text-white align-items-center"
+											style="column-gap: 15px; font-size: 33px;text-align: left;">
+											<input type="checkbox" name="" id="" class="custom-checkbox"> Monthly
+											contribution
+										</div>
 									</div>
-									 
+
 
 
 
@@ -358,26 +372,64 @@
 										<div class="col-md-6">
 											<input type="text" placeholder="ZIP " />
 										</div>
-										
+
 										<div class="col-md-6">
 											<input type="email" placeholder="Email address  " />
 										</div>
 										<div class="col-md-12">
-											<textarea name="" placeholder="Add a note" id="" cols="" rows=" "></textarea>
+											<textarea name="" placeholder="Add a note" id="" cols=""
+												rows=" "></textarea>
 										</div>
 									</div>
-									 
-									 
+
+
 									<input type="button" name="previous" class="previous action-button"
 										value="Previous" />
 									<input type="button" name="next" class="next action-button" value="Next" />
 								</fieldset>
 								<fieldset style="position: relative;">
+									<div class="row">
+										<div class="col-md-12 text-center ">
+											<p class="text-white">PLEASE ENTER CREDIT CARD INFO BELOW</p>
+										<p>
+											<img src="./assets/img/credit-card.png" alt=""> 
+										</p>
+										</div>
+										<div class="col-md-12">
+											<input type="text" placeholder="Card Number" />
+										</div>
 
-									<input type="text" name="fname" placeholder="First Name" />
-									<input type="text" name="lname" placeholder="Last Name" />
-									<input type="text" name="phone" placeholder="Phone" />
-									<textarea name="address" placeholder="Address"></textarea>
+										<div class="col-md-6">
+											<select name="" class="form-control"
+												style="margin-bottom:15px; border: 2px solid black;" id="">
+												<option value="">--MM--</option>
+												<option value="">jan</option>
+												<option value="">feb</option>
+												<option value="">march</option>
+											</select>
+										</div>
+										<div class="col-md-6">
+											<select name="" class="form-control"
+												style="margin-bottom:15px; border: 2px solid black;" id="">
+												<option value="">--YYYYY--</option>
+												<option value="">2024</option>
+												<option value=""> 2023 </option>
+												<option value=""> 2022 </option>
+											</select>
+										</div>
+										<div class="col-md-12">
+											<input type="number" placeholder="Card code - CVV " />
+										</div>
+										<div class="col-md-12">
+											<small>
+												Your personal data will be used to process your order, support
+												lyour experience throughout this website, and for other
+
+												|purposes described in our <a href="" class="text-white text-decoration-none">privacy policy</a>
+											</small>
+										</div>
+									</div>
+
 									<input type="button" name="previous" class="previous action-button"
 										value="Previous" />
 									<a href="#" class="submit action-button" target="_top">Submit</a>
