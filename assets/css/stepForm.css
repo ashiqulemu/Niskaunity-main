@@ -33,7 +33,7 @@
 	color: #2C3E50;
 	font-size: 13px;
 	accent-color: black;
-	border: 2px solid black;
+	 
 }
 input:focus, textarea:focus{
     outline : 2px solid  #e8000b!important;

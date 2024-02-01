@@ -9993,10 +9993,10 @@ video {
 .custom-checkbox{
   appearance: none;
   height: 80px;
-  width:120px;
-  border: 2px solid black;
+  width:120px; 
   background-color: #fff; 
   position: relative; 
+  border: 2px solid black!important;
 }
 .custom-checkbox:checked::after{
   content: '\2713';
