@@ -10055,4 +10055,19 @@ video {
 .otherInput::placeholder{ 
   color:#b90000fa!important; 
 }
+
+.thanks-box{
+  padding:25px 50px;
+  margin: 50px 0;
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+  background: black;
+  border: 5px solid red;
+}
+
+.thanks-box h1{
+  font-size: 5rem;
+}
+.thanks-box p{
+  font-size: 2.7rem;
+}
  
