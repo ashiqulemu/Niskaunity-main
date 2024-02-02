@@ -549,3 +549,21 @@
    }).on('touchend',function() {
       $(this).trigger('hover') ;
    });
+
+
+
+   
+  var mycls = document.querySelectorAll('.selectAmount .items');
+  for(let i=0; i<=mycls.length; i++){
+     mycls[i].addEventListener("click",function(){ 
+      for (var j = 0; j < mycls.length; j++) {
+        mycls[j].classList.remove('active');
+      }
+      this.classList.add('active');
+
+      // in mobile menu it works on collaps the navigation on click a menu item
+      //  document.getElementById("navbarNavDropdown").classList.remove("show");
+       //----------------------------------------------------------------------
+      
+    });
+  }
