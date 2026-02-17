@@ -4,15 +4,15 @@
   font-family: "history-book";
   src: url(../fonts/ART\ HISTORY\ BOOK.otf);
 }
-@font-face {
+/* @font-face {
   font-family: "Domingo-de-Gramos";
   src: url(../fonts/Domingo-de-Gramos.ttf);
-}
+} */
 
-/* @font-face {
+@font-face {
   font-family: "go-bear";
   src: url(../fonts/Go\ Bear.ttf);
-} */
+}
 
 .support-sign {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
@@ -91,7 +91,7 @@ body {
   background-color: #fff;
   padding: 0;
   margin: 0;
-  font-family: "Domingo-de-Gramos";
+  font-family: "go-bear";
   line-height: 1.5;
   font-size: 17px;
   color: #333;
@@ -10532,6 +10532,7 @@ video {
 .merchandise .product h3 {
   text-align: center;
   color: #000;
+  font-weight: normal;
 }
 
 .merchandise .product:hover h3 {
