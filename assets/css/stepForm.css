@@ -123,6 +123,7 @@ input:focus, textarea:focus{
     border-radius: 3px;
     margin: 0 auto 5px auto;
     padding: 17px;
+    -webkit-text-stroke: 1px #222;
 }
 
 #progressbar li:nth-child(2):before {
@@ -137,6 +138,8 @@ input:focus, textarea:focus{
     border-radius: 3px;
     margin: 0 auto 5px auto;
     padding: 17px;
+        -webkit-text-stroke: 1px #222;
+    color: red;
 }
 
 #progressbar li:nth-child(3):before {
@@ -146,10 +149,11 @@ input:focus, textarea:focus{
     line-height: 35px;
     display: block;
     font-size: 21px;
-    color: #333;
+    color: #ff0000;
     background: white;
     border-radius: 3px;
     margin: 0 auto 5px auto;
+    -webkit-text-stroke: 1px #222;
     padding: 17px;
 }
 

@@ -19,13 +19,13 @@
 }
 
 .text-filter{ 
-  -webkit-text-stroke: 0.1px rgb(0, 0, 0);
+  -webkit-text-stroke: 1px rgb(0, 0, 0);
 }
 .news-details-title{ 
-  -webkit-text-stroke: 0.1px rgb(0, 0, 0);
+  -webkit-text-stroke: 1px rgb(0, 0, 0);
 }
 .author-title{ 
-  -webkit-text-stroke: 0.1px rgb(255, 0, 0);
+  -webkit-text-stroke: 1px rgb(255, 0, 0);
 }
 
 .support-sign {
@@ -104,11 +104,11 @@ body {
   position: relative;
   background-color: #fff;
   padding: 0;
-  margin: 0;
-  font-family: "go-bear";
+  margin: 0; 
   line-height: 1.5;
   font-size: 17px;
   color: #333;
+  font-family: "Newstar";
 }
 
 .btn-theme {
@@ -10120,14 +10120,19 @@ video {
   text-align: center;
   font-weight: normal;
   color: #333;
-  margin: 16px 0;
-  line-height: 1.4;
-  font-size: 2.3rem;
+  margin: 16px 0; 
+  font-size: 3.2rem;
   font-family: "Newstar"; 
+  -webkit-text-stroke: 1px red;
+}
+
+.news-list .box-container .items h3 { 
+     -webkit-text-stroke: 1px #222;
+    color: red;
 }
 
 .news-list .box-container .items:hover {
-    background-color: #00000057;
+    background-color: #00000024;
     outline: 5px solid #000000;
 }
 
@@ -10283,8 +10288,7 @@ video {
   bottom: 0px;
 }
 
-.eventBar .left ul li .event-item .year {
-  font-family: "math";
+.eventBar .left ul li .event-item .year { 
   color: #e8000b;
 }
 
@@ -10524,6 +10528,16 @@ video {
 
 .contact-info .address {
   width: 100%;
+  -webkit-text-stroke: 0.51px #ffffff;
+    font-size: 2.3rem;
+    color: red;
+}
+
+.contact-info .email {
+  width: 100%;
+  -webkit-text-stroke: 0.5px #ffffff;
+    font-size: 2.3rem;
+    color: red;
 }
 
 .merchandiseTopBar {
@@ -10558,8 +10572,10 @@ video {
 }
 
 .merchandise [data-toggle="collapse"] {
-  color: black;
-  display: block;
+  color: #e8000b;
+    display: block;
+    -webkit-text-stroke: 1px black; 
+    font-size: 21px;
 }
 
 .merchandise [data-toggle="collapse"]:hover {
@@ -10586,6 +10602,13 @@ video {
   align-items: baseline;
 }
 
+.listContainer label{
+      -webkit-text-stroke: 1px black;
+      color: red;
+      font-size: 18px;
+}
+ 
+
 .listContainer input[type="checkbox"] {
   appearance: none;
   -webkit-appearance: none;
@@ -10593,6 +10616,7 @@ video {
   width: 15px;
   background-color: #dbdbdb;
   margin-right: 5px;
+  border: 1px solid black;
 }
 
 .listContainer input[type="checkbox"]:focus {
