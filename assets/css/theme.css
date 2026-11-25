@@ -10103,19 +10103,22 @@ video {
   margin: 16px 0;
   line-height: 1.4;
   font-size: 2.3rem;
+ 
 }
 
 .news-list .box-container .items:hover {
-    background-color: #505050;
+    background-color: #00000057;
     outline: 5px solid #000000;
 }
 
 .news-list .box-container .items:hover h4{
  color: #fff;
+   
 }
 
 .news-list .box-container .items:hover .title {
   color: #fff;
+ 
 }
 
 .section-title {
