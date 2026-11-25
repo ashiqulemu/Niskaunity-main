@@ -389,6 +389,7 @@ p {
   font-size: 30px;
   line-height: 1.5;
   color: #fff;
+      -webkit-text-stroke: 1px #000000;
 }
 
 @media (max-width: 922px) {
@@ -10121,6 +10122,7 @@ video {
   margin: 50px 0;
   letter-spacing: 2px;
   font-size: 5rem;
+      -webkit-text-stroke: 0.5px #000000;
 }
 
 .subListing {
