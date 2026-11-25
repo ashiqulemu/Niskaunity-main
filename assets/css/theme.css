@@ -10293,6 +10293,7 @@ video {
 }
 
 .eventBar .left ul li .event-item .month {
+  -webkit-text-stroke: 1px red;
   font-size: 2rem;
   color: #333;
 }
