@@ -10092,7 +10092,7 @@ video {
 .news-list .box-container .items .item-box img {
   width: 100%;
   height: auto;
-  border: 5px solid #e8000b;
+  /* border: 5px solid #e8000b; */
 }
 
 .news-list .box-container .items .title {
@@ -10105,8 +10105,8 @@ video {
 }
 
 .news-list .box-container .items:hover {
-  background-color: #333;
-  border: 1px solid transparent;
+    background-color: #505050;
+    outline: 5px solid #000000;
 }
 
 .news-list .box-container .items:hover h4{
