@@ -10109,6 +10109,10 @@ video {
   border: 1px solid transparent;
 }
 
+.news-list .box-container .items:hover h4{
+ color: #fff;
+}
+
 .news-list .box-container .items:hover .title {
   color: #fff;
 }
