@@ -13,6 +13,20 @@
   font-family: "go-bear";
   src: url(../fonts/Go\ Bear.ttf);
 }
+@font-face {
+  font-family: "Newstar";
+  src: url(../fonts/Newstar.otf);
+}
+
+.text-filter{ 
+  -webkit-text-stroke: 0.1px rgb(0, 0, 0);
+}
+.news-details-title{ 
+  -webkit-text-stroke: 0.1px rgb(0, 0, 0);
+}
+.author-title{ 
+  -webkit-text-stroke: 0.1px rgb(255, 0, 0);
+}
 
 .support-sign {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
@@ -1349,6 +1363,8 @@ h6 {
   padding: 4px 13px;
   backdrop-filter: blur(6px);
   border-radius: 7px;
+  font-family: "Newstar";
+  -webkit-text-stroke: 2px #000;
 }
 
 @media (max-width: 992px) {
@@ -1385,6 +1401,7 @@ h6 {
   color: #000;
   line-height: 1;
   opacity: 0.85;
+  -webkit-text-stroke: 0.5px rgb(0, 0, 0);
 }
 
 @media (max-width: 768px) {
@@ -9988,6 +10005,7 @@ video {
   margin: 25px 0;
   letter-spacing: 2px;
   line-height: 1.3;
+  -webkit-text-stroke: 0.1px #e8000b;
 }
 
 .business-list .box-container {
@@ -10078,6 +10096,7 @@ video {
   font-size: 3.8rem;
   color: #e8000b;
   line-height: 1.1;
+      -webkit-text-stroke:  1px #ffffff;
 }
 
 .volunteer-list .box-container .items .bottom {
@@ -10104,7 +10123,7 @@ video {
   margin: 16px 0;
   line-height: 1.4;
   font-size: 2.3rem;
- 
+  font-family: "Newstar"; 
 }
 
 .news-list .box-container .items:hover {
@@ -10127,6 +10146,7 @@ video {
   letter-spacing: 2px;
   font-size: 5rem;
       -webkit-text-stroke: 0.5px #000000;
+      font-family: "Newstar";
 }
 
 .subListing {
@@ -10168,6 +10188,7 @@ video {
   line-height: 1.1;
   color: #e8000b;
   letter-spacing: 1px;
+  -webkit-text-stroke: 0.1px #ffffff;
 }
 
 .subListing .singleItems .middle .subtitle {
@@ -10326,6 +10347,7 @@ video {
 
 .eventItems .dateTime p {
   margin-bottom: 0;
+  -webkit-text-stroke: 1px red;
 }
 
 .eventItems .photo {
@@ -10371,6 +10393,7 @@ video {
   text-align: center;
   color: #000;
   font-size: 2.7rem;
+  -webkit-text-stroke: 1px red;
 }
 
 .eventscontainer {
@@ -10398,6 +10421,9 @@ video {
   color: #ffffff;
   margin-bottom: 20px;
   padding: 0 15px;
+}
+.event-single-details h1 {
+  -webkit-text-stroke: 0.6px #000;
 }
 
 .event-status {
@@ -10544,6 +10570,7 @@ video {
   text-align: center;
   color: #000;
   font-weight: normal;
+  -webkit-text-stroke: 1px red;
 }
 
 .merchandise .product:hover h3 {
@@ -10609,6 +10636,10 @@ video {
 
 }
 
+.contact-form-info h2{
+         -webkit-text-stroke: 0.1px #ffffff;
+  }
+
 @media (max-width: 1366px) {
   .business-list .box-container .items {
     flex-basis: 22.7%;
@@ -10661,6 +10692,7 @@ video {
   .contact-form-info {
     text-align: center;
   }
+  
 
   .contact-info-wrap {
     padding: 5%;
