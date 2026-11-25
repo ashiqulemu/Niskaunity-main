@@ -2156,7 +2156,7 @@ h6 {
   position: relative;
   display: block;
   overflow: hidden;
-  border: 5px solid red;
+  border: 3px solid rgb(255, 255, 255);
 }
 
 @media (min-width: 992px) {
@@ -2248,14 +2248,14 @@ h6 {
 
 /* portfolio list item caption alternative style */
 .pli-caption-alter .pli-caption .pli-title {
-  display: inline;
-  background-color: #ddddddbd;
-  padding: 4px 11px;
-  font-weight: 400;
-  color: #ff2323;
-  border-radius: 4px;
-  -webkit-text-stroke: 1px #080808;
-  font-size: 3.7rem;
+    display: inline;
+    background-color: #ddddddbd;
+    padding: 4px 11px;
+    font-weight: 400;
+    color: #000000;
+    border-radius: 4px;
+    -webkit-text-stroke: 1px #e8000b;
+    font-size: 3.7rem;
 }
 
 /* portfolio list item arrow */
