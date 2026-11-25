@@ -1587,7 +1587,7 @@ h6 {
 .isotope-item {
   float: left;
   width: 25%;
-  outline: 5px solid #fff;
+  outline: 1px solid #fff;
 }
 
 /* isotope last item (it makes last item to 100% wide) */
@@ -2137,6 +2137,7 @@ h6 {
   position: relative;
   display: block;
   overflow: hidden;
+  border: 5px solid red;
 }
 
 @media (min-width: 992px) {
