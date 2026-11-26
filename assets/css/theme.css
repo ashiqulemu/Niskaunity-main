@@ -1,17 +1,14 @@
 @import "../css/stepForm.css";
 
-@font-face {
+/* @font-face {
   font-family: "history-book";
   src: url(../fonts/ART\ HISTORY\ BOOK.otf);
-}
-/* @font-face {
-  font-family: "Domingo-de-Gramos";
-  src: url(../fonts/Domingo-de-Gramos.ttf);
 } */
+ 
 
 @font-face {
-  font-family: "go-bear";
-  src: url(../fonts/Go\ Bear.ttf);
+  font-family: "Domingo-de-Gramos";
+  src: url(../fonts/Domingo-de-Gramos.ttf);
 }
 @font-face {
   font-family: "Newstar";
@@ -2253,7 +2250,8 @@ h6 {
     padding: 4px 11px;
     font-weight: 400;
     color: #000000;
-    /* border-radius: 4px; */
+    font-family: "Domingo-de-Gramos";
+    text-transform: uppercase;
     -webkit-text-stroke: 2px #e8000b;
     font-size: 5.7rem;
 }
