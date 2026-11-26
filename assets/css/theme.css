@@ -2255,7 +2255,7 @@ h6 {
     color: #000000;
     border-radius: 4px;
     -webkit-text-stroke: 1px #e8000b;
-    font-size: 3.7rem;
+    font-size: 5.7rem;
 }
 
 /* portfolio list item arrow */
@@ -2326,7 +2326,7 @@ h6 {
 
   .pli-caption-alter .pli-caption .pli-title {
     font-size: 30px !important;
-    -webkit-text-stroke: 0;
+    /* -webkit-text-stroke: 0; */
   }
 
   .pli-category {
