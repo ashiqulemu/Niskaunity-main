@@ -2251,8 +2251,8 @@ h6 {
     font-weight: 400; 
     font-family: "Domingo-de-Gramos";
     text-transform: uppercase;
-     text-shadow: 1px 2px 0px #fff, 0px -2px 0px #fff, -2px 1px 0px #fff, 2px 1px 0px #000, -1px 5px 2px #000, -2px -5px 0px #000, -6px 0px 0px #000, 3px 6px 0px #000, 3px -4px 0px #000;
-    -webkit-text-shadow: 1px 2px 0px #fff, 0px -2px 0px #fff, -2px 1px 0px #fff, 2px 1px 0px #000, -1px 5px 2px #000, -2px -5px 0px #000, -6px 0px 0px #000, 3px 6px 0px #000, 3px -4px 0px #000;
+     text-shadow: 1px 2px 0px #fff, 0px -2px 0px #fff, -2px 0px 0px #fff, 3px -1px 0px #000, -1px 5px 2px #000, -4px -4px 0px #000, -5px 1px 0px #000, 4px 5px 0px #000, 1px -5px 1px #000;
+    -webkit-text-shadow: 1px 2px 0px #fff, 0px -2px 0px #fff, -2px 0px 0px #fff, 3px -1px 0px #000, -1px 5px 2px #000, -4px -4px 0px #000, -5px 1px 0px #000, 4px 5px 0px #000, 1px -5px 1px #000;
     font-size: 5.7rem;
     color: #ED1C24;
 }
