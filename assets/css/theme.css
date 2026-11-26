@@ -2198,8 +2198,7 @@ h6 {
   position: absolute;
    bottom:0;
   left: 0;
-  right: 0;
-  margin-bottom: -7px;
+  right: 0; 
   opacity: 1;
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
@@ -2247,7 +2246,7 @@ h6 {
 .pli-caption-alter .pli-caption .pli-title {
     display: block;
     background-color: #b8b8b8;
-    padding: 4px 11px;
+    padding: 5px 11px;
     font-weight: 400; 
     font-family: "Domingo-de-Gramos";
     text-transform: uppercase;
