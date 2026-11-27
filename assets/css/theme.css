@@ -53,11 +53,29 @@
 
 .news-details-title {
   -webkit-text-stroke: 1px rgb(0, 0, 0);
+  font-size: 8rem;
 }
 
+
+
+
 .author-title {
-  -webkit-text-stroke: .5px rgb(0 0 0);
-    color: white;
+  /* -webkit-text-stroke: .5px rgb(0 0 0); */
+    color: #3d3939;
+    font-size: 3rem;
+    font-family: sans-serif;
+    font-weight: bold; 
+    margin-top: -15px;
+    text-transform: uppercase;
+}
+
+@media(max-width:960px){
+ .news-details-title { 
+  font-size: 4rem;
+ }
+ .author-title{
+  font-size: 2rem;
+ }
 }
 
 .support-sign {
