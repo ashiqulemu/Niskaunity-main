@@ -15,7 +15,12 @@
   font-family: "Newstar";
   src: url(../fonts/Newstar.otf);
 }
-
+.event-year-title{
+  font-size: 5rem!important;
+  text-align: center;
+      color: red;
+    -webkit-text-stroke: 0.5px black;
+}
 .custom-block-area {
   display: flex;
   align-items: center;
@@ -54,13 +59,14 @@
 .news-details-title {
   -webkit-text-stroke: 1px rgb(0, 0, 0);
   font-size: 8rem;
+  text-align: center;
+  color: red;
 }
 
 
 
 
-.author-title {
-  /* -webkit-text-stroke: .5px rgb(0 0 0); */
+.author-title { 
     color: #3d3939;
     font-size: 3rem;
     font-family: sans-serif;
@@ -71,7 +77,7 @@
 
 @media(max-width:960px){
  .news-details-title { 
-  font-size: 4rem;
+          font-size: 3.5rem;
  }
  .author-title{
   font-size: 2rem;
