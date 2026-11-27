@@ -1,9 +1,9 @@
 @import "../css/stepForm.css";
 
-/* @font-face {
+@font-face {
   font-family: "history-book";
   src: url(../fonts/ART\ HISTORY\ BOOK.otf);
-} */
+}
 
 
 @font-face {
@@ -56,7 +56,8 @@
 }
 
 .author-title {
-  -webkit-text-stroke: 1px rgb(255, 0, 0);
+  -webkit-text-stroke: .5px rgb(0 0 0);
+    color: white;
 }
 
 .support-sign {
