@@ -10357,9 +10357,9 @@ video {
 }
 
 .eventBar .left ul li .event-item .month {
-  -webkit-text-stroke: 1px red;
-  font-size: 2rem;
-  color: #333;
+  -webkit-text-stroke: 1px #000000;
+    font-size: 2rem;
+    color: #ffffff;
 }
 
 .eventBar .left ul li .event-item:hover {
